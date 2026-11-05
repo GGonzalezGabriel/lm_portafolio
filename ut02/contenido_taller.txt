@@ -1,0 +1,39 @@
+CONTENIDO DE LA PÁGINA DEL TALLER (texto facilitado por BiciRuta)
+================================================================
+
+Título de la página: Taller BiciRuta · Reparación y mantenimiento de bicicletas
+Descripción para buscadores: Taller de bicicletas urbanas, de montaña y eléctricas en Madrid. Revisiones, reparaciones y puesta a punto con cita previa.
+
+Taller BiciRuta
+Reparación y mantenimiento de bicicletas urbanas, de montaña y eléctricas.
+
+¿Quiénes somos?
+Somos un equipo de tres mecánicos con más de diez años de experiencia. Trabajamos con recambios originales y te damos presupuesto antes de empezar cualquier reparación. IMPORTANTE (destacar): ninguna reparación se hace sin tu aprobación del presupuesto.
+
+Servicios y precios (IVA incluido)
+- Revisión básica: ajuste de frenos y cambios, presión y engrase de cadena. 25,00 €
+- Revisión completa: la básica más centrado de ruedas, revisión de rodamientos y limpieza. 49,00 €
+- Cambio de cámara: 8,00 € más el precio de la cámara.
+- Diagnóstico de bicicleta eléctrica (batería, motor y controlador): 35,00 €
+
+Cómo es una revisión (en este orden)
+1. Recepción de la bicicleta y entrevista con el cliente.
+2. Diagnóstico y presupuesto.
+3. Reparación, una vez aprobado el presupuesto.
+4. Prueba en rodillo y entrega.
+
+Consejos de mantenimiento
+Revisa la presión de las ruedas cada dos semanas. Limpia y engrasa la cadena cada 300 km (o después de rodar con lluvia). Recuerda: "a clean chain is a happy chain" (frase en inglés que repite nuestro jefe de taller).
+
+Horario
+Lunes a viernes: 9:00–14:00 y 17:00–20:00
+Sábados: 10:00–14:00
+Domingos y festivos: cerrado
+
+Contacto
+Teléfono: 91 555 01 23 (+34915550123)
+Correo: taller@biciruta.example
+Dirección: Calle del Pedal, 12 · 28010 Madrid
+Mapa: https://www.openstreetmap.org/search?query=Madrid
+
+Imágenes disponibles en img/: logo_biciruta.png (320×80), taller.jpg (800×600), bici_urbana.jpg (800×600)
