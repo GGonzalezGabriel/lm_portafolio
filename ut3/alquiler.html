@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alquiler</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  
+</head>
+
+<body>
+
+  <a href="#contenido" class="saltar-contenido">Saltar al contenido principal</a>
+
+  <header class="cabecera">
+    <img src="img/logo_biciruta.png" alt="Logotipo de BiciRuta">
+
+    <nav class="menu">
+    <a href="index.html">Tienda</a> | <a href="taller.html">Taller</a> | <a href="alquiler.html" aria-current="page">Alquiler</a>
+    </nav>
+
+  </header>
+
+  <main class="contenido">
+
+    <h1 class="titulo-grande">Alquiler de bicicletas</h1>
+
+    <div class="texto">Recorre la ciudad y el anillo verde con nuestras bicicletas de alquiler. Para más información consulta las <a href="condiciones.html">condiciones del alquiler</a>.</div>
+
+    <section class="bloque">
+
+      <h2 class="titulo-mediano">Nuestras bicis de alquiler</h2>
+
+      <div class="bici">
+
+        <img
+          src="img/bici_urbana-800.jpg"
+          srcset="img/bici_urbana-400.jpg 400w, img/bici_urbana-800.jpg 800w, img/bici_urbana-1200.jpg 1200w"
+          sizes="(min-width: 700px) 300px, 100vw"
+          alt="Bici Urbana U100 con cesta delantera y luces"
+          width="1200"
+          height="800"
+          loading="lazy"
+        >
+
+        <h3 class="titulo-pequeno">Bici Urbana U100</h3>
+        <div class="texto">Cómoda y ligera, con cesta delantera y luces. Ideal para moverse por el centro.</div>
+      </div>
+
+      <div class="bici">
+
+        <img
+          src="img/bici_electrica-800.jpg"
+          srcset="img/bici_electrica-400.jpg 400w, img/bici_electrica-800.jpg 800w, img/bici_electrica-1200.jpg 1200w"
+          sizes="(min-width: 700px) 300px, 100vw"
+          alt="Bicicleta eléctrica E-Bike City E500"
+          width="1200"
+          height="800"
+          loading="lazy"
+        >
+
+        <h3 class="titulo-pequeno">E-Bike City E500</h3>
+        <div class="texto">Asistencia eléctrica hasta 25 km/h y 70 km de autonomía.</div>
+      </div>
+
+    </section>
+
+    <section class="bloque">
+
+      <h2 class="titulo-mediano">Tarifas</h2>
+
+      <table>
+        <caption>Tarifas de alquiler de bicicletas</caption>
+        <thead>
+          <tr>
+            <th scope="col">Bicicleta</th>
+            <th scope="col">1 hora</th>
+            <th scope="col">Medio día</th>
+            <th scope="col">Día completo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Bici Urbana U100</th>
+            <td>4 €</td>
+            <td>12 €</td>
+            <td>18 €</td>
+          </tr>
+          <tr>
+            <th scope="row">E-Bike City E500</th>
+            <td>8 €</td>
+            <td>25 €</td>
+            <td>38 €</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Precios con IVA. Casco y candado incluidos.</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    </section>
+
+    <section class="bloque">
+
+      <h2 class="titulo-mediano">Ruta recomendada: el río</h2>
+
+      <figure>
+
+        <video controls preload="metadata" width="640" height="360" poster="img/ruta_rio_poster.jpg">
+          <source src="media/ruta_rio.mp4" type="video/mp4">
+          <track kind="captions" src="media/ruta_rio.es.vtt" srclang="es" label="Español" default>
+          Reproducción de video no soportada
+        </video>
+
+        <figcaption>Recorrido en bicicleta por la ruta del río.</figcaption>
+
+      </figure>
+    </section>
+
+    <aside class="lateral">
+
+      <form action="#" method="post">
+
+        <h2 class="titulo-mediano">Boletín</h2>
+
+        <label for="correo-boletin">Correo electrónico:</label>
+        <input type="email" id="correo-boletin" name="correo" placeholder="Tu correo">
+
+        <button type="submit" class="boton">Suscribirme</button>
+
+      </form>
+
+    </aside>
+
+  </main>
+
+  <footer class="pie">BiciRuta S.L. · Calle del Pedal, 12 · Madrid · Publicado el 01/03/2026</footer>
+
+</body>
+
+</html>
