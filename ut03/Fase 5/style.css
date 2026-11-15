@@ -1,0 +1,27 @@
+body {
+
+  background-color: #ffffff;
+  color: #111111;
+}
+
+a {
+
+  color: #0044cc;
+}
+
+:focus-visible {
+
+  outline: 3px solid #000000;
+}
+
+
+.saltar-contenido:focus {
+
+  position: static;
+}
+
+table, th, td {
+
+  border: 1px solid #111111;
+  border-collapse: collapse;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camino de Santiago</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="#contenido-principal" class="saltar-contenido">Saltar al contenido principal</a>
+
+  <header>
+    <h1>Camino de Santiago</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#ruta">Ruta</a></li>
+        <li><a href="#tabla">Tabla</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+    <section id="ruta">
+      <h2>La ruta</h2>
+      <article>
+        <h3>Artículo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <img
+          src="./img/camino-800px.jpg"
+          srcset="./img/camino-400px.jpg 400w, ./img/camino-800px.jpg 800w, ./img/camino-1200px.jpg 1200w"
+          sizes="(min-width: 700px) 300px, 100vw"
+          alt="Mapa de España y Portugal con la ciudad de Santiago de Compostela marcada."
+          width="400"
+          height="300"
+        >
+
+        <audio controls>
+          <source src="./media/audio.mp3" type="audio/mpeg">
+        </audio>
+      </article>
+    </section>
+
+    <section id="tabla">
+      <h2>Tabla</h2>
+      <table>
+        <caption>Título tabla</caption>
+        <thead>
+          <tr>
+            <th scope="col">Columna 1</th>
+            <th scope="col">Columna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Fila 1</th>
+            <td>Dato 1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="campo">Correo electrónico:</label>
+        <input type="text" id="campo" name="campo">
+        <button type="submit">Enviar</button>
+      </form>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </footer>
+
+</body>
+
+</html>
